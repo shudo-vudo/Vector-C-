@@ -16,8 +16,8 @@ public:
 	~Vector();
 	void print(); // метод вывода
 	void clear(); // метод очистки
-	void push_back(int);
-	void remove(int);
+	void push_back(int); // метод добавления элемента назад
+	void remove(int); // метод удаления элемента на определённой позиции
 };
 
 
